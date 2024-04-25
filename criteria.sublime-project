@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Criteria Pattern",
+		}
+	],
+	"settings": {
+		"LSP": {
+			"formatters": {
+				"source.json.sublime": "LSP-json"
+			},
+		}
+	},
+}
