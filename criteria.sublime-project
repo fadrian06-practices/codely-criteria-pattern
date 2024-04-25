@@ -10,6 +10,12 @@
 			"formatters": {
 				"source.json.sublime": "LSP-json"
 			},
+      "LSP-intelephense": {
+        "settings": {
+          "intelephense.environment.phpVersion": "8.2.18",
+          "intelephense.format.braces": "k&r"
+        }
+      }
 		}
 	},
 }
