@@ -9,4 +9,16 @@ final readonly class Filter {
     public FilterValue $value
   ) {
   }
+
+  static function fromPrimitives(
+    string $field,
+    string $operator,
+    string $value
+  ): self {
+    return new Filter(
+      new FilterField($field),
+      new FilterOperator(Operator::fromName($operator)),
+      new FilterValue($value)
+    );
+  }
 }
