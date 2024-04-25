@@ -2,7 +2,7 @@
 
 namespace FasLatam\Contexts\Shared\Domain\Criteria;
 
-final readonly class FilterValue {
-  function __construct(public string $value) {
-  }
+use FasLatam\Contexts\Shared\Domain\StringValueObject;
+
+final readonly class FilterValue extends StringValueObject {
 }

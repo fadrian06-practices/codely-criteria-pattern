@@ -2,7 +2,7 @@
 
 namespace FasLatam\Contexts\Shared\Domain\Criteria;
 
-final readonly class OrderBy {
-  function __construct(public string $value) {
-  }
+use FasLatam\Contexts\Shared\Domain\StringValueObject;
+
+final readonly class OrderBy extends StringValueObject {
 }
